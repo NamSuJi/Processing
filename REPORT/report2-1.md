@@ -1,7 +1,7 @@
 ```
 void setup(){
   size(800,300);
-  fill(255,0,0)
+  fill(255,0,0);
   textSize(128);
 }
 int i,a=1;
