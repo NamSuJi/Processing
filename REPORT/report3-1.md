@@ -53,7 +53,7 @@ void checkButtons() {
   }
 }
 ```
->> #### 실행 결과
+> #### 실행 결과
 >
 > Before
 >> ![before](https://user-images.githubusercontent.com/52815908/78014111-6c693b80-7382-11ea-8a08-d9b9c9df9260.JPG)
