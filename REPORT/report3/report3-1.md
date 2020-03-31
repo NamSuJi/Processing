@@ -9,9 +9,13 @@ void draw() {
   background(204);
 
   if (overButton == true) {
-    fill(255);
+    fill(0);
+    strokeWeight(5);
+    stroke(255);
   } else {
     noFill();
+    strokeWeight(1);
+    stroke(0);
   }
   rect(105, 60, 75, 75);
   line(135, 105, 155, 85);
