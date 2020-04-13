@@ -1,8 +1,8 @@
 > #### 1.OpenGL
 >
-> 1) 정의 : 
+>> 1) 정의 : 그래픽 하드웨어 제어를 위한 소프트웨어 인터페이스로 높은 이식성과 빠른 실행속도를 가진 3D그래픽&모델링 라이브러리이다.  OpenGL은 프로그래밍 언어가아님 어플리케이션 프로그래밍 인터페이스(API)로 사용된다.
 >
-> 2) 응용 : 
+>> 2) 응용 : CAD, 가상현실, 정보시각화, 비행 시뮬레이션 등의 분야에서 활용되고 있습니다. 또한 컴퓨터 분야에서도 널리 활용되고 있으며, 마이크로 소프트사의 Direct3D와 함께 컴퓨터 그래픽 세계를 양분하고 있습니다.
 >
 > #### 2.PGraphics 예제
 ```
@@ -39,10 +39,10 @@ void setup() {
   
   // Make three shapes
   PShape path = createShape();
-  path.beginShape();//임의의 모양 그리기, 삼각형 모양 지붕 생성
-  path.vertex(-20, -20);
-  path.vertex(0, -40);
-  path.vertex(20, -20);
+  path.beginShape();//임의의 모양 그리기, 도형을 구성하는 하나의 점
+  path.vertex(-20, -20);//삼각형
+  path.vertex(0, -40);//모양의
+  path.vertex(20, -20);//지붕
   path.endShape();
   //개별 shape 생성
   PShape rect1 = createShape(RECT, -20, -20, 40, 40);
