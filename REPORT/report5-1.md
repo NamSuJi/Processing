@@ -20,7 +20,7 @@ void draw() {
 ```
 >
 >> 결과 사진  
->> ![image](https://user-images.githubusercontent.com/52815908/79108733-e7364b80-7db1-11ea-83f1-6f85850a7cd6.png)
+>> ![image](https://user-images.githubusercontent.com/52815908/79108733-e7364b80-7db1-11ea-83f1-6f85850a7cd6.png)  
 >
 > #### 3.PShape 예제
 >> 
@@ -59,4 +59,4 @@ void draw() {
 ```
 >
 >> 결과 사진  
->> ![image](https://user-images.githubusercontent.com/52815908/79109863-2bc2e680-7db4-11ea-8ce2-95c1d6917d99.png)
+>> ![image](https://user-images.githubusercontent.com/52815908/79109863-2bc2e680-7db4-11ea-8ce2-95c1d6917d99.png)  
