@@ -39,7 +39,7 @@ void setup() {
   
   // Make three shapes
   PShape path = createShape();
-  path.beginShape();//임의의 모양 그리기
+  path.beginShape();//임의의 모양 그리기, 삼각형 모양 지붕 생성
   path.vertex(-20, -20);
   path.vertex(0, -40);
   path.vertex(20, -20);
