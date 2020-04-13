@@ -1,5 +1,5 @@
 >
->>
+> #### 2.PGraphics 예제
 ```
 PGraphics pg;
 void setup() {
@@ -9,13 +9,13 @@ void setup() {
 
 void draw() {
   pg.beginDraw();
-  pg.background(0,0,255);
-  pg.stroke(255);
+  pg.background(0,0,255);//배경색 파란색으로 지정
+  pg.stroke(255);//line의 색은 하얀색
   pg.line(pg.width*0.5, pg.height*0.5, mouseX, mouseY);
-  pg.ellipse(pg.width*0.5, pg.height*0.5,mouseX-100,mouseY-100);
-  pg.rect(pg.width*0.7,pg.height*0.7,mouseX-100,mouseY-100,7);
+  pg.ellipse(pg.width*0.5, pg.height*0.5,mouseX-100,mouseY-100);//line의 시작 위치와 동일한 곳에 원 생성
+  pg.rect(pg.width*0.7,pg.height*0.7,mouseX-100,mouseY-100,7);//line의 끝 위치에 사각형 생성
   pg.endDraw();
-  image(pg, 50, 50); 
+  image(pg, 50, 50); //pg를 위치 x-50, y-50으로 지정
 }
 ```
 >
@@ -23,39 +23,39 @@ void draw() {
 >
 >> ![image](https://user-images.githubusercontent.com/52815908/79108733-e7364b80-7db1-11ea-83f1-6f85850a7cd6.png)
 >
->
+> #### 3.PShape 예제
 >> 
 ```
-PShape house;
-
+PShape house;//모양을 저장한 데이터 타입
 void setup() {
   size(200, 200);
 
-  // Make a group PShape
+  // Make a group PShape, 여러 개의 PShape를 대표명 house로 묶음
   house = createShape(GROUP);
   
   // Make three shapes
   PShape path = createShape();
-  path.beginShape();
+  path.beginShape();//임의의 모양 그리기
   path.vertex(-20, -20);
   path.vertex(0, -40);
   path.vertex(20, -20);
   path.endShape();
-  PShape rectangle = createShape(RECT, -20, -20, 40, 40);
+  //개별 shape 생성
+  PShape rect1 = createShape(RECT, -20, -20, 40, 40);
   PShape rect2 = createShape(RECT, -10, -10, 20, 30);
   PShape circle = createShape(ELLIPSE, -3, 3, 5, 5);
   
-  // Add all three as children
+  // Add all three as children, 그룹에 개별의 shape추가
   house.addChild(path);
-  house.addChild(rectangle);
+  house.addChild(rect1);
   house.addChild(rect2);
   house.addChild(circle);
 }
 
 void draw() {
   background(52);
-  translate(mouseX, mouseY);
-  shape(house);
+  translate(mouseX, mouseY);//마우스의 위치에 따라 움직임
+  shape(house);//draw the group
 }
 ```
 >
