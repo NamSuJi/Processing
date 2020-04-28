@@ -12,6 +12,10 @@ void draw(){
    String m = c.readString();
    int n = m.indexOf("\r\n\r\n")+4;
    m = m.substring(n);
-   print(m);
+   println(m);
+   n = int(m.trim());
+   background(0);
+   fill(0,0,n);
+   ellipse(200,200,n,n);
   }
 }
