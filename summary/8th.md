@@ -17,6 +17,6 @@
  : “확장현실”은 단어적으로 보면 “증강현실”과 의미가 비슷하지만, 기술적으로는 완전히 다른 형태로 해석됩니다. 확장현실을 영어로는 “XR”로 표기하는데, 이때 X는 변수를 의미합니다. 즉 VR, AR, MR을 모두 의미하며, 미래에 등장할 또 다른 형태의 현실도 다 포괄할 수 있는 용어입니다. 따라서 향후에는 VR, AR, MR 등으로 복잡하게 구별하지 않고 XR로 간단히 표현하게 될 것 같습니다.  
 <br/>
 <br/>
-* 출처  
-https://cafe.naver.com/graphicscafe
-https://www.samsungsds.com/global/ko/support/insights/VR-AR-MR-XR.html
+> 출처  
+> https://cafe.naver.com/graphicscafe
+> https://www.samsungsds.com/global/ko/support/insights/VR-AR-MR-XR.html
