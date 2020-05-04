@@ -19,5 +19,5 @@
 <br/>
 
 > 출처  
-> https://cafe.naver.com/graphicscafe  
-> https://www.samsungsds.com/global/ko/support/insights/VR-AR-MR-XR.html
+> * https://cafe.naver.com/graphicscafe  
+> * https://www.samsungsds.com/global/ko/support/insights/VR-AR-MR-XR.html
